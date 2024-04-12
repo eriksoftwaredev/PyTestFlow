@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4.1.2
     - name: Set up Python 3.12.3
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v5.1.0
       with:
-        python-version: 3.8
+        python-version: 3.12.3
     - name: Install dependencies
       run: |
         make install
