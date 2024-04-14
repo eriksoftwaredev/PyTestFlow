@@ -1,5 +1,7 @@
 # PyTestFlow: Python CI and Testing Automation with GitHub Actions
 
-Explore the world of Continuous Integration (CI) and testing in Python with this exemplary GitHub project. Utilizing a Makefile and GitHub Actions, this Python application showcases best practices for automating tests and ensuring code quality. Whether you're new to CI or seeking a robust template for Python applications, this project provides valuable insights and a solid foundation.
+Explore this project to delve into a comprehensive example of Continuous Integration (CI) and testing for Python applications. Utilizing a Makefile for streamlined operations and GitHub Actions for automated testing, this repository serves as an illustrative guide for integrating CI workflows into Python projects.
+
+Whether you're a novice seeking to understand CI principles or an experienced developer looking for a reliable testing setup, this project provides valuable insights and practical demonstrations. Additionally, it functions as a versatile Python application template, ready to be adapted for various projects and requirements.
 
 [![Python application test with Github Actions](https://github.com/eriksoftwaredev/pytest-sample/actions/workflows/testing-ci.yml/badge.svg)](https://github.com/eriksoftwaredev/pytest-sample/actions/workflows/testing-ci.yml)
