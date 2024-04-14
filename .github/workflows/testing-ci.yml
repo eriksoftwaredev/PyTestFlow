@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - Master
-  wokflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
