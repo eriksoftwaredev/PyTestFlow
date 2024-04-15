@@ -16,11 +16,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.1.2
 
-      - name: Conventional Changelog Action
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v5
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #- name: Conventional Changelog Action
+       # id: changelog
+       # uses: TriPSs/conventional-changelog-action@v5
+       # with:
+       #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Create Release
         id: create_release
@@ -30,7 +30,11 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body:  ${{ steps.changelog.outputs.clean_changelog }}
+          #body:  ${{ steps.changelog.outputs.clean_changelog }}
+          body: |
+            Changes in this Release
+            - First Change
+            - Second Change
           draft: false
           prerelease: false
           
